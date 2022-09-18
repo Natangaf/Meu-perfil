@@ -1,0 +1,414 @@
+body {
+    background-color: rgba(0, 0, 0, 0.678);
+    color: white;
+}
+
+body::-webkit-scrollbar {
+    width: 7px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: white;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #1f4e70;
+}
+
+.button {
+    background-color: #1f4e70;
+    color: white;
+    font-size: 18px;
+    border: transparent;
+    border-radius: 5px;
+    height: 40px;
+    width: 150px;
+
+}
+
+.imageUm {
+    background-image: url(./img/background/principal.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imageDois {
+    background-image: url(./img/background/contato.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    min-width: 300px;
+    max-width: 1500px;
+    margin: auto;
+}
+
+.head {
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    width: 90px;
+}
+
+.natanga {
+    font-size: 30px;
+    color: #1f4e70;
+}
+
+.fernandes {
+    color: white;
+}
+
+.navegation {
+    min-width: 200px;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 5px;
+}
+
+.buttonsections {
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+    max-width: 150px;
+    background-color: transparent;
+    border: transparent;
+    cursor: pointer;
+}
+
+.buttonsections:hover {
+    transition: all 0.5s;
+    color: #1f4e70;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5px;
+}
+
+.aside {
+    max-width: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 10px;
+}
+
+.aside a {
+    height: 30px;
+    width: 30px;
+}
+
+.iconsaside {
+    height: 30px;
+    width: 30px;
+}
+
+section {
+    max-width: 1400px;
+    margin: 20px 0px;
+    gap: 20px;
+}
+
+article {
+    height: 700px;
+}
+
+.principal {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nome {
+    display: flex;
+    gap: 5px;
+}
+
+.firtName {
+    font-size: 40px;
+    font-weight: bold;
+    color: #1f4e70;
+}
+
+.secondName {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+.capacite {
+    font-size: 150px;
+    color: white;
+}
+
+.charge {
+    font-size: 150px;
+    color: #1f4e70;
+}
+
+.natangaImage {
+    border: 10px solid white;
+    border-radius: 200px;
+    width: 250px;
+    height: 250px;
+}
+
+.experience {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.practicing {
+    height: 480px;
+    width: 340px;
+    padding: 4.375rem 4.6875rem 3.125rem 3.125rem;
+    text-align: right;
+    border: 1px solid rgba(255, 255, 255, .4);
+    border-right: none;
+}
+
+.practicing span {
+    font-size: 12.5rem;
+    font-weight: 500;
+    line-height: 1.1;
+    margin-right: -0.25rem;
+    margin-bottom: 3.125rem;
+}
+
+.color {
+    font-size: 12.5rem;
+    font-weight: 500;
+    line-height: 1.1;
+    margin-right: -0.25rem;
+    margin-bottom: 3.125rem;
+    color: #1f4e70;
+}
+
+.experienceTime {
+    width: 700px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 60px;
+}
+
+.experienceTitle {
+    font-size: 50px;
+    width: 90%;
+}
+
+.experienceDescripition {
+    color: rgba(255, 255, 255, 0.644);
+    font-size: 20px;
+    width: 90%;
+}
+
+.time {
+    height: 400vh;
+    width: 90%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.modulos {
+    height: 80px;
+}
+
+.modulo {
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.backgroundwhite {
+    margin: 10px 0;
+    background-color: white;
+    width: 100%;
+    height: 5px;
+    border-radius: 3px;
+}
+
+.bar {
+    background-color: #1f4e70;
+    width: 0%;
+    height: 5px;
+    border-radius: 3px;
+}
+
+.projects {
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    overflow: auto;
+    gap: 300px;
+}
+
+.project {
+    min-width: 1400px;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 85px;
+    margin-bottom: 25px;
+    margin-left: 10px;
+}
+
+.project p {
+    width: 40%;
+
+}
+
+.projectTitle {
+    font-size: 150px;
+    font-weight: 300;
+}
+
+.educations {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.divEdication {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.divEdication h2 {
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.divEdication button {
+    height: 50px;
+    width: 200px;
+}
+
+.formations {
+    width: 1400px;
+}
+
+.school {
+    height: 200px;
+    width: 1400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px 10px;
+}
+
+.logoSchool{
+    height: 120px;
+    width: 120px;
+}
+.descripitonScholl{
+    height: 120px;
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 20px;
+}
+.timeSchool{
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.432);
+}
+.nameSchool{
+    font-size: 25px;
+    font-weight: 400;
+}
+.descripitionScholl{
+    height: 120px;
+    width: 340px;
+}
+.contact{
+    display: flex;
+}
+.infoContact{
+    width: 700px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 30px;
+    margin-left: 80px;
+}
+.titleContact{
+    font-size: 50px;
+}
+.contactEmail{
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.432);
+}
+.contactNunber{
+    font-size: 30px;
+    
+}
+.form{
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+}
+.formTitle{
+    font-size: 10px;
+}
+.imputsContact{
+    background-color: transparent;
+    border: transparent;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.432);
+    font-size: 35px;
+    height: 80px;
+    width: 100%;
+    margin: 10px 0;
+}
+.mensage{
+    height: 200px;
+}
+.imputsContact:hover{
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
